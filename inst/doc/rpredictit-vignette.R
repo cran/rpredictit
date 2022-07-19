@@ -26,10 +26,6 @@ contract_data <- rpredictit::parse_historical_csv(csv_path)
 rpredictit::historical_plot(contract_data)
 
 ## ---- eval=FALSE--------------------------------------------------------------
-#  data <- rpredictit::tweet_markets()
-#  rpredictit::markets_table(data)
-
-## ---- eval=FALSE--------------------------------------------------------------
 #  markets <- rpredictit::all_markets()
 #  id <- markets$id[1]
 #  rpredictit::single_market(id)
